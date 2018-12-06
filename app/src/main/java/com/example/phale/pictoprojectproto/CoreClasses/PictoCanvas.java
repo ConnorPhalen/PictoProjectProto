@@ -1,5 +1,6 @@
 package com.example.phale.pictoprojectproto.CoreClasses;
 
+import android.graphics.Bitmap;
 import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Path;
@@ -13,10 +14,13 @@ import java.util.Dictionary;
  */
 public class PictoCanvas extends Canvas {
 
-    Dictionary<Path,Color> pathList;
+    private Dictionary<Path,Color> pathList;
+    private Bitmap mBitmap;
 
-    public PictoCanvas()
+    // Takes in a Bitmap used to draw to when used with the canvas.
+    public PictoCanvas(Bitmap bitmap)
     {
-
+        super(bitmap);
+        mBitmap = bitmap;
     }
 }
