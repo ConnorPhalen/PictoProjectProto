@@ -28,7 +28,9 @@ public class SetupActivity extends AppCompatActivity {
     public void dispatchStartGame(View view)
     {
         // Create intent for starting a Game Session
-        Intent startGameIntent = new Intent(this, GameActivity.class);
+        // Intent startGameIntent = new Intent(this, GameActivity.class);
+
+        Intent startGameIntent = new Intent(this, TestActivity.class);
 
         if(startGameIntent.resolveActivity(getPackageManager()) != null)
         {
