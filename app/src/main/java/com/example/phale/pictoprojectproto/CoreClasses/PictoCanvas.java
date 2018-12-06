@@ -14,8 +14,8 @@ import java.util.Dictionary;
  */
 public class PictoCanvas extends Canvas {
 
-    Dictionary<Path,Color> pathList;
-    Bitmap mBitmap;
+    private Dictionary<Path,Color> pathList;
+    private Bitmap mBitmap;
 
     // Takes in a Bitmap used to draw to when used with the canvas.
     public PictoCanvas(Bitmap bitmap)
