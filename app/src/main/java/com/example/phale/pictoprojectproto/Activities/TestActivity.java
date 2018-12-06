@@ -12,13 +12,11 @@ import com.example.phale.pictoprojectproto.ViewClasses.PaintView;
 
 public class TestActivity extends AppCompatActivity {
 
-    private PaintView paintView;
-
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_test);
-        paintView = (PaintView) findViewById(R.id.paintView);
+        PaintView paintView = (PaintView) findViewById(R.id.paintView);
         DisplayMetrics metrics = new DisplayMetrics();
         getWindowManager().getDefaultDisplay().getMetrics(metrics);
         paintView.init(metrics);
