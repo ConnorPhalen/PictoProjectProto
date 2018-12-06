@@ -4,7 +4,7 @@ import android.graphics.Path;
 
 public class DrawPath {
 
-    public  int     colour;
+    public  int    colour;
     public boolean emboss;
     public int     strokeWidth;
     public Path    path;

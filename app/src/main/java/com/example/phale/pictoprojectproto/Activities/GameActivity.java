@@ -1,15 +1,15 @@
-package com.example.phale.pictoprojectproto.ViewClasses;
+package com.example.phale.pictoprojectproto.Activities;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 
 import com.example.phale.pictoprojectproto.R;
 
-public class GameSession extends AppCompatActivity {
+public class GameActivity extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_draw);
+        setContentView(R.layout.activity_game_session);
     }
 }
