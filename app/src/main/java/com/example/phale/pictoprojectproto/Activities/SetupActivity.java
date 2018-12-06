@@ -11,7 +11,6 @@ import com.example.phale.pictoprojectproto.DataClasses.Player;
 import com.example.phale.pictoprojectproto.R;
 
 import java.util.ArrayList;
-import java.util.List;
 
 public class SetupActivity extends AppCompatActivity {
 

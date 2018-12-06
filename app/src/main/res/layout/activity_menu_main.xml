@@ -23,6 +23,7 @@
         android:layout_width="136dp"
         android:layout_height="wrap_content"
         android:layout_marginBottom="16dp"
+        android:onClick="dispatchPlayGame"
         android:text="Play"
         app:layout_constraintBottom_toTopOf="@+id/buttonGoToAccount"
         app:layout_constraintEnd_toEndOf="parent"

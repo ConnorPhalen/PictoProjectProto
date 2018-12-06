@@ -3,11 +3,7 @@ package com.example.phale.pictoprojectproto.ViewClasses;
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.util.DisplayMetrics;
-import android.view.Menu;
-import android.view.MenuInflater;
-import android.view.MenuItem;
 
-import com.example.phale.pictoprojectproto.CoreClasses.PaintView;
 import com.example.phale.pictoprojectproto.R;
 
 public class DrawView extends AppCompatActivity {

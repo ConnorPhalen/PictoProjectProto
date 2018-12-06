@@ -1,4 +1,4 @@
-package com.example.phale.pictoprojectproto.CoreClasses;
+package com.example.phale.pictoprojectproto.ViewClasses;
 
 import android.content.Context;
 import android.graphics.Bitmap;
